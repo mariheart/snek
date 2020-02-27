@@ -1,0 +1,67 @@
+<!--CSS Selectors:
+tagname - all elements of that tag type
+.classname - all elements with that class
+selectorA, selectorB - applies the same rules to both selector A and selector B
+selectorA selectorB - all elements of selector B INSIDE selector A
+selectorA + selectorB - all elements of selector B DIRECTLY AFTER selector A
+selectorA > selectorB - similar to space - all selector B WHERE PARENT IS selectorA
+* - represents 'all'.
+
+Example: .mainContent *{
+    blah blah
+} - adds blah blah to ALL elements inside a .mainContent element
+
+Other selectors:
+sleectorA:first-child - sleect ONLY the first child element of selector A
+selectorA:hover - applies when your cursor is over the selector A element
+a:link - unvisited (unclicked) links
+a:visited - previously visited links
+a:active - currently clicked link-->
+
+
+<html>
+
+<head>
+    <title>snea snake</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="title">
+            <h1>Snek</h1>
+        </div>
+        <div class="snek">
+            <p><a href="https://snake.googlemaps.com/">Snek!</a></p>
+        </div>
+        <div class="textContainer">
+            <div>
+                <p>Fuck it</p>
+            </div>
+            <div>
+                <p>Pictures of snakes!</p>
+            </div>
+        </div>
+        <div class="thumbnailContainer">
+            <div class="firstDiv">
+                <img src="https://parade.com/wp-content/uploads/2016/07/snake-venom-ranger-rick-ftr.jpg">
+                <img
+                    src="https://www.familyhandyman.com/wp-content/uploads/2018/09/How-to-Avoid-Snakes-Slithering-Up-Your-Toilet-shutterstock_780480850.jpg">
+                <img src="https://media.mnn.com/assets/images/2017/02/blue-snake.jpg.653x0_q80_crop-smart.jpg">
+            </div>
+            <div class="secondDiv">
+                <img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/slideshows/snakebites_what_you_need_to_know_slideshow/650x350_snakebites_what_you_need_to_know_slideshow.jpg">
+                <img
+                    src="https://cosmos-images2.imgix.net/file/spina/photo/19880/190730-Indian_snake_full.jpg?ixlib=rails-2.1.4&auto=format&ch=Width%2CDPR&fit=max&w=835">
+                <img src="https://media.australianmuseum.net.au/media/dd/images/Some_image.width-800.936829a.jpg">
+            </div>
+        </div>
+        <div class="footer">
+            <p>snek.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

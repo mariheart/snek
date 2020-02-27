@@ -1,0 +1,85 @@
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+div {
+    margin: 0px;
+}
+
+/** {
+    border-style: solid;
+}*/
+
+
+.thumbnailContainer img {
+    width: 95%;
+    
+}
+
+.title h1, .footer {
+    display: flex;
+    justify-content: center;
+    color: teal;
+    margin: 15px;
+}
+
+.firstDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.firstDiv > img {
+    padding: 5px;
+}
+
+.secondDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.secondDiv img {
+    padding: 5px;
+}
+
+.textContainer div {
+    display: flex;
+    justify-content: center;
+    font-size: 19pt;
+    padding: 1px;
+}
+
+.textContainer div > p {
+    font-family: 'Courier New', Courier, monospace;
+    color: yellowgreen;
+}
+
+.snek {
+    position: fixed;
+}
+
+.snek p {
+    display: flex;
+    background-color: chartreuse;
+    border-style: dotted;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.snek a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.snek a:hover {
+    background-color: black;
+    color: chartreuse;
+}
